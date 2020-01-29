@@ -1,0 +1,337 @@
+Microsoft Windows [Version 10.0.18362.327]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\SnehaSaha>cd C:\sneha_programs
+
+C:\sneha_programs>DIR
+ Volume in drive C is Windows
+ Volume Serial Number is E669-EEDD
+
+ Directory of C:\sneha_programs
+
+24-01-2020  09:32    <DIR>          .
+24-01-2020  09:32    <DIR>          ..
+24-01-2020  09:32               106 Welcome.java
+               1 File(s)            106 bytes
+               2 Dir(s)  206,866,546,688 bytes free
+
+C:\sneha_programs>javac Welcome.java
+
+C:\sneha_programs>DIR
+ Volume in drive C is Windows
+ Volume Serial Number is E669-EEDD
+
+ Directory of C:\sneha_programs
+
+24-01-2020  09:34    <DIR>          .
+24-01-2020  09:34    <DIR>          ..
+24-01-2020  09:34               419 Welcome.class
+24-01-2020  09:32               106 Welcome.java
+               2 File(s)            525 bytes
+               2 Dir(s)  206,866,137,088 bytes free
+
+C:\sneha_programs>java Welcome
+hello Sneha
+
+C:\sneha_programs>javac Hi.java
+
+C:\sneha_programs>DIR
+ Volume in drive C is Windows
+ Volume Serial Number is E669-EEDD
+
+ Directory of C:\sneha_programs
+
+24-01-2020  09:42    <DIR>          .
+24-01-2020  09:42    <DIR>          ..
+24-01-2020  09:42               412 Hello.class
+24-01-2020  09:42               104 Hi.java
+24-01-2020  09:34               419 Welcome.class
+24-01-2020  09:32               106 Welcome.java
+               4 File(s)          1,041 bytes
+               2 Dir(s)  206,864,125,952 bytes free
+
+C:\sneha_programs>java Hello
+hello sneha
+
+C:\sneha_programs>javac Multiple.java
+
+C:\sneha_programs>DIR
+ Volume in drive C is Windows
+ Volume Serial Number is E669-EEDD
+
+ Directory of C:\sneha_programs
+
+24-01-2020  09:54    <DIR>          .
+24-01-2020  09:54    <DIR>          ..
+24-01-2020  09:54               418 Again.class
+24-01-2020  09:54               418 Check.class
+24-01-2020  09:42               412 Hello.class
+24-01-2020  09:42               104 Hi.java
+24-01-2020  09:54               210 Multiple.java
+24-01-2020  09:34               419 Welcome.class
+24-01-2020  09:32               106 Welcome.java
+               7 File(s)          2,087 bytes
+               2 Dir(s)  206,250,557,440 bytes free
+
+C:\sneha_programs>javac Info.java
+javac: file not found: Info.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+
+C:\sneha_programs>javac com/Sneha/Info.com
+javac: invalid flag: com/Sneha/Info.com
+Usage: javac <options> <source files>
+use -help for a list of possible options
+
+C:\sneha_programs>javac com/Sneha/Info.java
+
+C:\sneha_programs>java com.Sneha.Info
+Java with package
+
+----------------------------------------------------------------------------
+
+Interface the compiler automatically adds static final and abstract
+
+C:\sneha_workspace\Explore Java\bin>javap com.Sneha.types.InterfaceDemo
+Compiled from "InterfaceDemo.java"
+public interface com.Sneha.types.InterfaceDemo {
+  public static final int s;
+  public abstract int add(int, int);
+}
+
+-----------------------------------------------------------------------------
+
+AzureAD+SnehaSaha@DESKTOP-9NT54DS MINGW64 /c/sneha_workspace
+$ pwd
+/c/sneha_workspace
+
+AzureAD+SnehaSaha@DESKTOP-9NT54DS MINGW64 /c/sneha_workspace
+$ ls
+'Explore Java'/
+
+AzureAD+SnehaSaha@DESKTOP-9NT54DS MINGW64 /c/sneha_workspace
+$ cd Explore\ Java/
+
+AzureAD+SnehaSaha@DESKTOP-9NT54DS MINGW64 /c/sneha_workspace/Explore Java
+$ pwd
+/c/sneha_workspace/Explore Java
+
+AzureAD+SnehaSaha@DESKTOP-9NT54DS MINGW64 /c/sneha_workspace/Explore Java
+$ ls
+bin/  src/
+
+AzureAD+SnehaSaha@DESKTOP-9NT54DS MINGW64 /c/sneha_workspace/Explore Java
+$ git init
+Initialized empty Git repository in C:/sneha_workspace/Explore Java/.git/
+
+AzureAD+SnehaSaha@DESKTOP-9NT54DS MINGW64 /c/sneha_workspace/Explore Java (master)
+
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .classpath
+        .project
+        .settings/
+        bin/
+        src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+SnehaSaha@DESKTOP-9NT54DS MINGW64 /c/sneha_workspace/Explore Java (master)
+$ git add src
+
+AzureAD+SnehaSaha@DESKTOP-9NT54DS MINGW64 /c/sneha_workspace/Explore Java (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   src/HW1.class
+        new file:   src/HW2.class
+        new file:   src/Hello.java
+        new file:   src/com/Sneha/EncapsulationCheck.java
+        new file:   src/com/Sneha/Welcome.java
+        new file:   src/com/Sneha/apie/AbstractionDemo.java
+        new file:   src/com/Sneha/apie/Check.java
+        new file:   src/com/Sneha/apie/EncapsulationDEMO.java
+        new file:   src/com/Sneha/apie/InheritanceDemo.java
+        new file:   src/com/Sneha/apie/PolymorphismDemo.java
+        new file:   src/com/Sneha/classes/Employee.java
+        new file:   src/com/Sneha/classes/EmployeeDemo.java
+        new file:   src/com/Sneha/classes/EmployeeOps.java
+        new file:   src/com/Sneha/constructors/ConstructorDemo.java
+        new file:   src/com/Sneha/cw/EmployeeDetails.java
+        new file:   src/com/Sneha/cw/SumNumber.java
+        new file:   src/com/Sneha/functions/AbstractKeywordDemo.java
+        new file:   src/com/Sneha/functions/AllFinalclasses.java
+        new file:   src/com/Sneha/functions/Calculation.java
+        new file:   src/com/Sneha/functions/FinalClassDemo.java
+        new file:   src/com/Sneha/functions/FinalMethodDemo.java
+        new file:   src/com/Sneha/functions/FunctionDemo.java
+        new file:   src/com/Sneha/functions/StaticKeywordDemo.java
+        new file:   src/com/Sneha/hw/MergeName.java
+        new file:   src/com/Sneha/hw/SumNumber.java
+        new file:   src/com/Sneha/memory/HeapMemoryDemo.java
+        new file:   src/com/Sneha/memory/StackMemoryDemo.java
+        new file:   src/com/Sneha/misc/ArrayDemo.java
+        new file:   src/com/Sneha/misc/ClazzDemo.java
+        new file:   src/com/Sneha/misc/DateDemo.java
+        new file:   src/com/Sneha/misc/DocDemo.java
+        new file:   src/com/Sneha/misc/ForDemo.java
+        new file:   src/com/Sneha/misc/IBMCorp.java
+        new file:   src/com/Sneha/misc/MathDemo.java
+        new file:   src/com/Sneha/misc/ObjectDemo.java
+        new file:   src/com/Sneha/misc/StaticblockDemo.java
+        new file:   src/com/Sneha/misc/SuperDemo.java
+        new file:   src/com/Sneha/misc/SwitchDemo.java
+        new file:   src/com/Sneha/misc/SystemDemo.java
+        new file:   src/com/Sneha/misc/ThisDemo.java
+        new file:   src/com/Sneha/misc/ThisMethodDemo.java
+        new file:   src/com/Sneha/strings/StringBuilderDemo.java
+        new file:   src/com/Sneha/strings/StringDemo.java
+        new file:   src/com/Sneha/strings/StringMethodDemo.java
+        new file:   src/com/Sneha/strings/StringTokenizerDemo.java
+        new file:   src/com/Sneha/types/AnnotationDemo.java
+        new file:   src/com/Sneha/types/CannonPrinter.java
+        new file:   src/com/Sneha/types/ClassDemo.java
+        new file:   src/com/Sneha/types/EnumerationDemo.java
+        new file:   src/com/Sneha/types/HPPrinter.java
+        new file:   src/com/Sneha/types/IDemo.java
+        new file:   src/com/Sneha/types/InterfaceDemo.java
+        new file:   src/com/Sneha/types/InterfaceExtDemo.java
+        new file:   src/com/Sneha/types/Printable.java
+        new file:   src/com/Sneha/variables/DefaultValuesDemo.java
+        new file:   src/com/Sneha/variables/ExcessDemo.java
+        new file:   src/com/Sneha/variables/StaticVariableDemo.java
+        new file:   src/com/Sneha/variables/VariableDemo.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .classpath
+        .project
+        .settings/
+        bin/
+
+
+AzureAD+SnehaSaha@DESKTOP-9NT54DS MINGW64 /c/sneha_workspace/Explore Java (master)
+$
+
+AzureAD+SnehaSaha@DESKTOP-9NT54DS MINGW64 /c/sneha_workspace/Explore Java (master)
+$ git commit -m "Initial code base"
+[master (root-commit) 286dca5] Initial code base
+ Committer: Sneha Saha <snehsah1@in.ibm.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 58 files changed, 1501 insertions(+)
+ create mode 100644 src/HW1.class
+ create mode 100644 src/HW2.class
+ create mode 100644 src/Hello.java
+ create mode 100644 src/com/Sneha/EncapsulationCheck.java
+ create mode 100644 src/com/Sneha/Welcome.java
+ create mode 100644 src/com/Sneha/apie/AbstractionDemo.java
+ create mode 100644 src/com/Sneha/apie/Check.java
+ create mode 100644 src/com/Sneha/apie/EncapsulationDEMO.java
+ create mode 100644 src/com/Sneha/apie/InheritanceDemo.java
+ create mode 100644 src/com/Sneha/apie/PolymorphismDemo.java
+ create mode 100644 src/com/Sneha/classes/Employee.java
+ create mode 100644 src/com/Sneha/classes/EmployeeDemo.java
+ create mode 100644 src/com/Sneha/classes/EmployeeOps.java
+ create mode 100644 src/com/Sneha/constructors/ConstructorDemo.java
+ create mode 100644 src/com/Sneha/cw/EmployeeDetails.java
+ create mode 100644 src/com/Sneha/cw/SumNumber.java
+ create mode 100644 src/com/Sneha/functions/AbstractKeywordDemo.java
+ create mode 100644 src/com/Sneha/functions/AllFinalclasses.java
+ create mode 100644 src/com/Sneha/functions/Calculation.java
+ create mode 100644 src/com/Sneha/functions/FinalClassDemo.java
+ create mode 100644 src/com/Sneha/functions/FinalMethodDemo.java
+ create mode 100644 src/com/Sneha/functions/FunctionDemo.java
+ create mode 100644 src/com/Sneha/functions/StaticKeywordDemo.java
+ create mode 100644 src/com/Sneha/hw/MergeName.java
+ create mode 100644 src/com/Sneha/hw/SumNumber.java
+ create mode 100644 src/com/Sneha/memory/HeapMemoryDemo.java
+ create mode 100644 src/com/Sneha/memory/StackMemoryDemo.java
+ create mode 100644 src/com/Sneha/misc/ArrayDemo.java
+ create mode 100644 src/com/Sneha/misc/ClazzDemo.java
+ create mode 100644 src/com/Sneha/misc/DateDemo.java
+ create mode 100644 src/com/Sneha/misc/DocDemo.java
+ create mode 100644 src/com/Sneha/misc/ForDemo.java
+ create mode 100644 src/com/Sneha/misc/IBMCorp.java
+ create mode 100644 src/com/Sneha/misc/MathDemo.java
+ create mode 100644 src/com/Sneha/misc/ObjectDemo.java
+ create mode 100644 src/com/Sneha/misc/StaticblockDemo.java
+ create mode 100644 src/com/Sneha/misc/SuperDemo.java
+ create mode 100644 src/com/Sneha/misc/SwitchDemo.java
+ create mode 100644 src/com/Sneha/misc/SystemDemo.java
+ create mode 100644 src/com/Sneha/misc/ThisDemo.java
+ create mode 100644 src/com/Sneha/misc/ThisMethodDemo.java
+ create mode 100644 src/com/Sneha/strings/StringBuilderDemo.java
+ create mode 100644 src/com/Sneha/strings/StringDemo.java
+ create mode 100644 src/com/Sneha/strings/StringMethodDemo.java
+ create mode 100644 src/com/Sneha/strings/StringTokenizerDemo.java
+ create mode 100644 src/com/Sneha/types/AnnotationDemo.java
+ create mode 100644 src/com/Sneha/types/CannonPrinter.java
+ create mode 100644 src/com/Sneha/types/ClassDemo.java
+ create mode 100644 src/com/Sneha/types/EnumerationDemo.java
+ create mode 100644 src/com/Sneha/types/HPPrinter.java
+ create mode 100644 src/com/Sneha/types/IDemo.java
+ create mode 100644 src/com/Sneha/types/InterfaceDemo.java
+ create mode 100644 src/com/Sneha/types/InterfaceExtDemo.java
+ create mode 100644 src/com/Sneha/types/Printable.java
+ create mode 100644 src/com/Sneha/variables/DefaultValuesDemo.java
+ create mode 100644 src/com/Sneha/variables/ExcessDemo.java
+ create mode 100644 src/com/Sneha/variables/StaticVariableDemo.java
+ create mode 100644 src/com/Sneha/variables/VariableDemo.java
+
+AzureAD+SnehaSaha@DESKTOP-9NT54DS MINGW64 /c/sneha_workspace/Explore Java (master)
+$
+AzureAD+SnehaSaha@DESKTOP-9NT54DS MINGW64 /c/sneha_workspace/Explore Java (master)
+$ git remote add origin https://github.com/SnehaSaha119/java.git
+
+AzureAD+SnehaSaha@DESKTOP-9NT54DS MINGW64 /c/sneha_workspace/Explore Java (master)
+$ git remote add origin https://github.com/SnehaSaha119/java.git
+
+AzureAD+SnehaSaha@DESKTOP-9NT54DS MINGW64 /c/sneha_workspace/Explore Java (master)
+$ ^C
+
+AzureAD+SnehaSaha@DESKTOP-9NT54DS MINGW64 /c/sneha_workspace/Explore Java (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+AzureAD+SnehaSaha@DESKTOP-9NT54DS MINGW64 /c/sneha_workspace/Explore Java (master)
+$ git push --set-upstream origin master
+Enumerating objects: 74, done.
+Counting objects: 100% (74/74), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (71/71), done.
+Writing objects: 100% (74/74), 16.26 KiB | 1.25 MiB/s, done.
+Total 74 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/SnehaSaha119/java.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+AzureAD+SnehaSaha@DESKTOP-9NT54DS MINGW64 /c/sneha_workspace/Explore Java (master)
+$
+
+
+
